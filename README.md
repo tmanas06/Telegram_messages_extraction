@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 Execute the Script:\n
 ```bash
-python your_script.py
+python script.py
 ```
 
 # For Createing  Configuration File: Create a config.data file in the same directory as the script with the following content:
