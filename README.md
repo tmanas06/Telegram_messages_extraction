@@ -2,6 +2,15 @@
 ## Overview
 This script uses the Telethon library to interact with the Telegram API and continuously update a CSV file with messages from chats. It retrieves messages, processes them to extract relevant information, and appends this data to telegram_messages_complete.csv.
 
+## Features
+
+- Connects to Telegram using Telethon.
+- Retrieves messages from individual dialogs.
+- Retrieves all the messages in telegram to CSV file
+- Logs message details into a CSV file.
+- Continuously updates the CSV file at specified intervals.
+- Handles common errors such as flood waits.
+
 ## Components
 Configuration: Loads API credentials from config.data using configparser.
 Telegram Client Initialization: Initializes the Telegram client with the loaded credentials.
