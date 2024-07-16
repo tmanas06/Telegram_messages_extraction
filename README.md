@@ -44,7 +44,7 @@ phone = youre phone number with country code included
     - Retrieve and log messages from individual dialogs into `telegram_messages_complete.csv`.
     - Continu
 
-# Input
-![image](https://github.com/Wallet-Hunter/Cloud_Report/assets/113188197/15930a2c-4199-4f7c-89c6-bda4fd373e03)
-# output
-![image](https://github.com/Wallet-Hunter/Cloud_Report/assets/113188197/79bcead1-cafb-496a-bd2f-d14ab9e7fa2a)
+# Input and output
+![image](https://github.com/user-attachments/assets/e0727e51-d991-4628-a4ee-c1ec6651a135)
+![image](https://github.com/user-attachments/assets/8367308f-49a5-4593-91a3-0fd651d11fcb)
+
