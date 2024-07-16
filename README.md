@@ -1,4 +1,5 @@
-# Cloud_Report
+# Telegram_messages_extraction
+
 ## Overview
 This script uses the Telethon library to interact with the Telegram API and continuously update a CSV file with messages from chats. It retrieves messages, processes them to extract relevant information, and appends this data to telegram_messages_complete.csv.
 
