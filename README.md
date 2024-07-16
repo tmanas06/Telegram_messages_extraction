@@ -31,6 +31,19 @@ id = your_api_id
 hash = your_api_hash
 phone = youre phone number with country code included
 ```
+
+## Usage
+
+1. Run the script:
+    ```bash
+    python bot.py
+    ```
+
+2. The script will:
+    - Connect to your Telegram account.
+    - Retrieve and log messages from individual dialogs into `telegram_messages_complete.csv`.
+    - Continu
+
 # Input
 ![image](https://github.com/Wallet-Hunter/Cloud_Report/assets/113188197/15930a2c-4199-4f7c-89c6-bda4fd373e03)
 # output
