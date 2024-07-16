@@ -47,15 +47,32 @@ phone = youre phone number with country code included
 
 1. Run the script:
     ```bash
-    python bot.py
+    python script.py
     ```
 
-2. The script will:
-    - Connect to your Telegram account.
-    - Retrieve and log messages from individual dialogs into `telegram_messages_complete.csv`.
-    - Continu
+ The script connects to Telegram and fetches messages from individual dialogs.
+2. Messages are saved to `telegram_messages_complete.csv` with the following columns:
+    - Dialog Name
+    - Dialog ID
+    - Dialog Type
+    - Sender Name
+    - Sender ID
+    - Receiver Name
+    - Receiver ID
+    - Message Text
+    - Send Time
 
 # Input and output
 ![image](https://github.com/user-attachments/assets/e0727e51-d991-4628-a4ee-c1ec6651a135)
 ![image](https://github.com/user-attachments/assets/8367308f-49a5-4593-91a3-0fd651d11fcb)
 
+### Acknowledgements
+
+- [Telethon](https://github.com/LonamiWebs/Telethon)
+- [python-dotenv](https://github.com/theskumar/python-dotenv)
+
+---
+
+### Disclaimer
+
+Use this script responsibly and ensure you comply with Telegram's terms of service and anti-spam policies.
