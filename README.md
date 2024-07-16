@@ -18,9 +18,10 @@ CSV Update Function: Defines an asynchronous function update_messages_csv to ret
 Continuous Update Loop: Defines an asynchronous function continuous_update that runs update_messages_csv at regular intervals.
 Main Function: Starts the Telegram client and runs the continuous update loop.
 ## Requirements
-Python 3.6+\n
-Telethon\n
-configparser (Only for storing your personal info)
+- Python 3.7+
+- Telegram API credentials
+- Telethon 
+- configparser (Only for storing your personal info)
 ## Setup
 Install Dependencies:\n
 ```bash
